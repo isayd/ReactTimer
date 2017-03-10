@@ -24,8 +24,6 @@ describe('Clock', () => {
     });
   });
 
-
-
   describe('formatSeconds', () => {
     it('sould formatSeconds', () =>{
       // render component so we can access functions
@@ -34,7 +32,6 @@ describe('Clock', () => {
       var expected = '10:15';
       var actual = clock.formatSeconds(seconds);
       expect(actual).toBe(expected);
-
     });
 
     it('sould formatSeconds when min/sec are less than 10', () =>{
@@ -42,9 +39,7 @@ describe('Clock', () => {
       var seconds = 61;
       var expected = '01:01';
       var actual = clock.formatSeconds(seconds);
-
       expect(actual).toBe(expected);
-
     });
   });
 });
