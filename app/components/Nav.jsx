@@ -21,7 +21,12 @@ var Nav = () => {
         <div className = "top-bar-right">
           <ul className="menu">
             <li className="menu-text">
-              Created by <a href="https://github.com/isayd" target="_blank">Isayd</a>
+              Created by <a>Isayd</a>
+            </li>
+            <li>
+              <a href= "https://github.com/isayd" target="_blank" id="githubIMG">
+              <img src = "http://goo.gl/MmEuEZ" width="25"/>
+              </a>
             </li>
           </ul>
         </div>
