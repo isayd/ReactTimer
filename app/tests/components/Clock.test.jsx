@@ -24,6 +24,8 @@ describe('Clock', () => {
     });
   });
 
+
+
   describe('formatSeconds', () => {
     it('sould formatSeconds', () =>{
       // render component so we can access functions
