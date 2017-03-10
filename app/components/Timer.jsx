@@ -7,7 +7,6 @@ var Timer = React.createClass ({
       <h1>Timer component!!</h1>
     );
   }
-
 });
 
 module.exports = Timer;

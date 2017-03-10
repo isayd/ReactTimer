@@ -26,7 +26,7 @@ module.exports = {
   },
 
   resolve: {
-    //Creation of custum package names (Webpack alias)!!
+    //Creation of custom package names (Webpack alias)!!
     //Specify where is the creation of a custom pachake is gonna happen
     root: __dirname,
     alias: {
