@@ -11,7 +11,7 @@ var Countdown = require('Countdown');
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
-//load app.scss with an alias
+//App css
 require ('style!css!sass!applicationStyles')
 
 
